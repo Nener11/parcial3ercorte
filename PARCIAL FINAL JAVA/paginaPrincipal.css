@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+    background-color: rebeccapurple;
+}
+
+#menu {
+    display: flex;
+    flex-direction:column; 
+    align-items: center; 
+    margin-top: 20px;
+}
+
+.fila {
+    display: flex;
+    margin-bottom: 20px; 
+}
+
+.opcion {
+    text-align: center;
+}
+
+#menu a {
+    text-decoration:double;
+    color: white; 
+    font-weight: bold;
+    padding: 10px 16px; 
+    border-radius: 8px;
+    transition: transform 0.3s, background-color 0.3s;
+    font-size: 20px;
+}
+
+#menu a:hover {
+    background-color: aqua; 
+    color: rgb(67, 67, 0); 
+    margin-bottom: 30%;
+    transform: scale(1.2); 
+}
+
+img {
+    display: block;
+    margin-top: 10px;
+    max-width: 30%;
+    position: relative;
+    height: auto;
+    margin-left: 35%;
+}
